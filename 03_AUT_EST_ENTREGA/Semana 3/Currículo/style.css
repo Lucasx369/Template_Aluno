@@ -1,0 +1,73 @@
+#perfil{
+    height: 400px;
+}
+
+#fundot{
+    height: 250px;
+    width: 1440px;
+    position: absolute;
+    border-bottom: 8px solid #1A162E;
+}
+
+#foto{
+    width: 260px;
+    height: 260px;
+    border: 8px solid #1A162E;
+    border-radius: 10%;
+    position: absolute;
+    margin-top: 112px;
+    margin-left: 580px;
+}
+
+#curriculo{
+    width: 1430px;
+}
+
+#nome{
+    text-align: center;
+    color: #1A162E;
+}
+
+.secao{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.projetos{
+    width: 1048px;
+}
+
+.listas{
+    margin-left: 500px;
+}
+
+h3{
+    background-color: #090518;
+    padding: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #ffffff;
+    text-align: center;
+    border: 8px solid #1A162E;
+    border-radius: 10px;
+}
+
+h4{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+h5{
+    text-align: center;
+}
+
+#redes{
+    text-align: center;
+}
+
+#linkedin{
+    height: 50px;
+}
