@@ -6,6 +6,8 @@ const hostname = '127.0.0.1';
 const port = 3052;
 const sqlite3 = require('sqlite3').verbose(); 
 const DBPATH = 'dbUser.db'; //Caminho para o banco de dados
+const bodyParser = require('body-parser');
+const urlencodedParser = bodyParser.urlencoded({ extended: false })
 
 //Caminhos Relativos:
 //Caminhos Absolutos:  /C://USERS -> 
@@ -19,6 +21,7 @@ app.get('/users', (req, res) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
 
   var db = new sqlite3.Database(DBPATH);
+  
 var sql = 'SELECT * FROM tbUser ORDER BY title COLLATE NOCASE';
   db.all(sql, [],  (err, rows ) => {
       if (err) {
@@ -44,9 +47,6 @@ app.post('/userinsert', urlencodedParser, (req, res) => {
   db.close();
   res.end();
 });
-
-const bodyParser = require('body-parser');
-const urlencodedParser = bodyParser.urlencoded({ extended: false })
 
 app.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
