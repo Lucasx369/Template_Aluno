@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprar</title>
+    <link href="../style.css" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <h1>Preço da Passagem</h1>
+    <label for="qtdPessoas">Insira a quantidade de pessoas</label><br>
+    <input type="number" id="qtdPessoas" name="qtdPessoas"><br> <!--Campo para inserir a quantidade de pessoas no voo-->
+    <label for="periodo">Insira o período:</label><br> <!--Campo para selecionar o período da viagem-->
+        <select id="periodo" name="periodo">
+          <option value="noturno">Noturno</option>
+          <option value="diurno">Diurno</option>
+        </select><br>
+    <input id="botao" type="submit" onclick="calcular()" value="Calcular"> <!--Botão para calcular o valor da passagem, conforme os dados apresentados acima-->
+    <p id="valor" style="text-align: center;"></p>
+</body>
+</html>
+
