@@ -37,3 +37,6 @@ B) Página web que ao inserir valores em dois campos, o usuário tem acesso a um
 C) Página web para conferir o formato de um número de celular
 D) Página web para calcular o valor da passagem de avião
 E) Página web que possui um sistema de notas de uma turma
+
+## Semana 8 (05/06)
+1) Exercício de personalizaçãp - Inclui a atualização da página via script JS mediante acesso aos endpoints criados na semana 7, utilizando ajax
