@@ -39,4 +39,4 @@ D) Página web para calcular o valor da passagem de avião
 E) Página web que possui um sistema de notas de uma turma
 
 ## Semana 8 (05/06)
-1) Exercício de personalizaçãp - Inclui a atualização da página via script JS mediante acesso aos endpoints criados na semana 7, utilizando ajax
+1) Exercício de personalização - Inclui a atualização da página via script JS mediante acesso aos endpoints criados na semana 7, utilizando ajax
