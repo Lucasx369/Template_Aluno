@@ -40,3 +40,11 @@ E) Página web que possui um sistema de notas de uma turma
 
 ## Semana 8 (05/06)
 1) Exercício de personalização - Inclui a atualização da página via script JS mediante acesso aos endpoints criados na semana 7, utilizando ajax
+
+## Semana 9 (19/06)
+1) Resolvi 5 exercícios de programação
+1.1) Desenvolvi uma página web para descobrir se o dígito da centena é par ou ímpar
+1.2) Desenvolvi uma página web para descobrir a soma dos dígitos de um número
+1.3) Desenvolvi uma página web para ordenar três nomes ordem alfabética crescente
+1.4) Desenvolvi uma página web que exibi a série de Fibonacci até o n-ésimo termo
+1.5) Desenvolvi uma página web para descobrir quais são os números primos em um determinado intervalo
